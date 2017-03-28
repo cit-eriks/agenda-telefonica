@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     selector: 'my-app',
     template: `
         <h1>My First Angular 2 App</h1>
-        <contatos-lista></contatos-lista>
+        <router-outlet></router-outlet>
         `
 })
 export class AppComponent {}
