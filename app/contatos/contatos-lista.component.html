@@ -11,7 +11,7 @@
           <th>Deletar</th>
         </thead>
         <tbody>
-          <tr *ngFor="let c of contatos">
+          <tr *ngFor="let c of contatos"[routerLink]="['/contato/save', c.id]">
             <td>{{ c.nome }}</td>
             <td>{{ c.email }}</td>
             <td>{{ c.telefone }}</td>
